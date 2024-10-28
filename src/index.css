@@ -1,0 +1,17 @@
+body {
+  font-size: 1.1rem;
+
+  margin: 0;
+  font-family:"Source Sans 3","Inria Sans",'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Sen,sans-serif;
+  font-size: 1.1rem;
+    line-height: 1.75rem;
+}
