@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from '../Banner'
+import './Post.css'
 
 export default function Post2(props) {
   return (
@@ -12,72 +13,70 @@ export default function Post2(props) {
           <div className="row text-center">    
             <div className=" col mt-4 mb-3  bd-highlight">
               <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
-              <div className="card-body">
-              <h5 className="card-title">Predictify - Human Critical Organ Disease Prediction Using Deep Learning</h5>
+              <img src="red.jpg" className="card-img-top" alt="..."></img>
+
+              <h5 className="mt-3 card-title">Predictify</h5>
               <p className="card-text">Skillset : Python, Deep Learning, Flask, Bootstrap, MongoDB</p>
-              <a href="#" class="btn btn-primary">Repo Link</a></div>
-              </div>
+              <a href="https://github.com/Laxmikantathare/Predictify" class="btn btn-primary">Repo Link ↗️</a></div>
+
           </div>
   <div className="col mt-4 mb-3 mx-1 bd-highlight">
   <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
-              <div className="card-body">
-              <h5 className="card-title">GameNtech-Blogs</h5>
-              <p className="card-text">Skillset : </p>
-              <a href="#" class="btn btn-primary">Website Link : </a></div>
-              </div>
+              <img src='red.jpg' className="card-img-top" alt="..."></img>
+
+              <h5 className="mt-3 card-title">GameNtech-Blogs</h5>
+              <p className="card-text">Skillset : React.Js, CSS, Bootstrap, Firebase</p>
+              <a href="https://gamentech-blogs.netlify.app/" class="btn btn-primary">Website Link ↗️</a></div>
+
   </div>
   <div className="col mt-4 mb-3 m-1 bd-highlight">
   <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
-              <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a></div>
+              <img src="red.jpg" className="card-img-top" alt="..."></img>
+      
+              <h5 className="mt-3 card-title">Loan Calculator</h5>
+              <p className="card-text">Skillset : Python, Plotly,  Streamlit</p>
+              <a href="https://github.com/Laxmikantathare/Streamlit_Loan_Calculator/blob/main/calculator.py" class="btn btn-primary">Repo Link ↗️</a>
               </div>
   </div>
   </div>
   <div className="row text-center pb-3">  
-  <div className="col mt-4 mb-3 bd-highlight">ard4</div>
-  <div className="col mt-4 mb-3 mx-1 bd-highlight">card5</div>
-  <div className="col mt-4 mb-3 mx-1 bd-highlight">card5</div>
+  <div className="col mt-4 mb-3 bd-highlight">
+  <div className="card">
+              <img src="red.jpg" className="card-img-top" alt="..."></img>
+      
+              <h5 className="mt-3 card-title">Getweathy</h5>
+              <p className="card-text">Skillset : React.Js, Bootstrap, WeatherMap API</p>
+              <a href="https://getweathy.netlify.app/" class="btn btn-primary">Website Link ↗️</a>
+              </div>
+  </div>
+  <div className="col mt-4 mb-3 mx-1 bd-highlight">
+  <div className="card">
+              <img src="red.jpg" className="card-img-top" alt="..."></img>
+      
+              <h5 className="mt-3 card-title">Spam Mail Detection</h5>
+              <p className="card-text">Skillset : Python, Flask, Bootstrap, OnRender</p>
+              <a href="https://spam-mail-detection-6kfy.onrender.com/" class="btn btn-primary">Website Link ↗️</a>
+              </div>
+  </div>
+  <div className="col mt-4 mb-3 mx-1 bd-highlight">
+  <div className="card">
+              <img src="red.jpg" className="card-img-top" alt="..."></img>
+      
+              <h5 className="mt-3 card-title">Face and Eye Detection</h5>
+              <p className="card-text">Skillset : Python, Flask, Bootstrap, OpenCV</p>
+              <a href="https://github.com/Laxmikantathare/Face_Eye_Detection" class="btn btn-primary">Repo Link ↗️</a>
+              </div>
+  </div>
+  
     </div>
 
+      <h3 className='mt-3 mb-2'>CERTIFICATIONS</h3>
           
-          <div className=' mt-4 eduhead'> bachelor’s of Engineering (Information Technology)</div>
-          <div>D.Y. Patil College of Engineering, Akurdi, Pune ( 2020 - 2024 )</div>
-          <div> CGPA : 8.65 </div>
-          <br></br>
-          <div className='eduhead'>Higher Secondary School (12th)</div>
-          <div>Residential Junior College ( 2018 - 2020 )</div>
-          <div> Percentage : 84% </div>
-          <br></br>
-          <div className='eduhead'>Secondary School (10th)</div>
-          <div>Residential Junior College ( 2013 - 2018 )</div>
-          <div> Percentage : 96% </div>
-          
-          <h3 className='mt-4 mb-2'>EXPERIENCE</h3>
-          
-          <div className=' mt-4 eduhead'> Web Development Intern</div>
-          <div>Let's Grow More ( MAR 2023 - APR 2023 )</div>
-          <div> Key Skills: HTML, CSS, JavaScript, React.Js, Bootstrap </div>
-          <br></br>
-          <div className='eduhead'>Front-End web Developer Intern</div>
-          <div>Oasis infobyte ( AUG 2022 - OCT 2022 )</div>
-          <div> Key Skills: HTML, CSS, JavaScript </div>
-
-          <h3 className='mt-4 mb-2'>SKILLS</h3>
-          
-          <div className=' mt-4 eduhead'>           
-          <h5 className='mt-3'>Programming Languages          : C++, Python, JavaScript </h5>
-          <h5 className='mt-4'>Libraries/Frameworks : HTML, CSS, Bootstrap, React.Js, Flask, Streamlit</h5>
-          <h5 className='mt-4'>Database : MySQL, MongoDB</h5>
-          <h5 className='mt-4 mb-4'>Developer Tools : VS Code, GitHub, Jupyter Notebook</h5>
-          </div>
-  
-          
-          
+          <h5 className=' mt-3 eduhead'>1. Python for data Science, AI & Development by IBM</h5>
+          <h5>2. Career Essentials in Generative AI by Microsoft and LinkedIn by Microsoft</h5>
+          <h5>3. Intro to Deep Learning by Kaggle</h5>
+          <h5>4. Elements of AI by University of Helsinki</h5>
+          <h5>5. Career Essentials in GitHub Professional Certificate by GitHub</h5>
           
         </div>
       </div>
