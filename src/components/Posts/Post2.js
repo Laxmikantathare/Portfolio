@@ -13,16 +13,16 @@ export default function Post2(props) {
           <div className="row text-center">    
             <div className=" col mt-4 mb-3  bd-highlight">
               <div className="card">
-              <img src="red.jpg" className="card-img-top" alt="..."></img>
+              <img src="predictify.png" className="card-img-top" alt="..."></img>
 
               <h5 className="mt-3 card-title">Predictify</h5>
-              <p className="card-text">Skillset : Python, Deep Learning, Flask, Bootstrap, MongoDB</p>
+              <p className="card-text">Skillset : Python, , Flask, Bootstrap, MongoDB</p>
               <a href="https://github.com/Laxmikantathare/Predictify" class="btn btn-primary">Repo Link ↗️</a></div>
 
           </div>
   <div className="col mt-4 mb-3 mx-1 bd-highlight">
   <div className="card">
-              <img src='red.jpg' className="card-img-top" alt="..."></img>
+              <img src='gamentech.png' className="card-img-top" alt="..."></img>
 
               <h5 className="mt-3 card-title">GameNtech-Blogs</h5>
               <p className="card-text">Skillset : React.Js, CSS, Bootstrap, Firebase</p>
@@ -31,7 +31,7 @@ export default function Post2(props) {
   </div>
   <div className="col mt-4 mb-3 m-1 bd-highlight">
   <div className="card">
-              <img src="red.jpg" className="card-img-top" alt="..."></img>
+              <img src="loancal.png" className="card-img-top" alt="..."></img>
       
               <h5 className="mt-3 card-title">Loan Calculator</h5>
               <p className="card-text">Skillset : Python, Plotly,  Streamlit</p>
@@ -42,7 +42,7 @@ export default function Post2(props) {
   <div className="row text-center pb-3">  
   <div className="col mt-4 mb-3 bd-highlight">
   <div className="card">
-              <img src="red.jpg" className="card-img-top" alt="..."></img>
+              <img src="getweathy.png" className="card-img-top" alt="..."></img>
       
               <h5 className="mt-3 card-title">Getweathy</h5>
               <p className="card-text">Skillset : React.Js, Bootstrap, WeatherMap API</p>
@@ -51,7 +51,7 @@ export default function Post2(props) {
   </div>
   <div className="col mt-4 mb-3 mx-1 bd-highlight">
   <div className="card">
-              <img src="red.jpg" className="card-img-top" alt="..."></img>
+              <img src="spammail.png" className="card-img-top" alt="..."></img>
       
               <h5 className="mt-3 card-title">Spam Mail Detection</h5>
               <p className="card-text">Skillset : Python, Flask, Bootstrap, OnRender</p>
@@ -76,7 +76,7 @@ export default function Post2(props) {
           <h5>2. Career Essentials in Generative AI by Microsoft and LinkedIn by Microsoft</h5>
           <h5>3. Intro to Deep Learning by Kaggle</h5>
           <h5>4. Elements of AI by University of Helsinki</h5>
-          <h5>5. Career Essentials in GitHub Professional Certificate by GitHub</h5>
+          <h5 className='mb-4'>5. Career Essentials in GitHub Professional Certificate by GitHub</h5>
           
         </div>
       </div>

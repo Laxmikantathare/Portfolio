@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import '../components/Style.css'
+import Banner from './Banner';
 
 export default function Contant() {
 
@@ -47,6 +48,10 @@ export default function Contant() {
 
   return (
     <>
+
+      <div class="row">
+      <div class="col-4"> <Banner/></div>
+      <div class="col-8"> 
   
     <div className="container-fluid  d-flex justify-content-center mt-2 mb-3">
     <div className="container p-4 m-5 conbox "style={{ maxWidth:"37rem"}}>
@@ -69,6 +74,9 @@ export default function Contant() {
   </div>
   <button type="button" className="subbtn  p-2 px-4"onClick={submitdata}>Send</button>
 </form>
+</div>
+</div>
+
 </div>
 </div>
 

@@ -29,3 +29,8 @@
 .postbg{
     padding:5rem 3rem 0rem 2rem  ;
 }
+.aboutme{
+    border: 3px solid rgba(128, 128, 128, 0.367);
+    border-radius: 15px;
+    max-width: 55rem; 
+    background-color: white;}
